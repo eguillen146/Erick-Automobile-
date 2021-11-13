@@ -1,4 +1,4 @@
-# Erick
+# Generic speed calcu.
 Name Entry
 
 

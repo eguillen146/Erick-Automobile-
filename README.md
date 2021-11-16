@@ -47,6 +47,24 @@ using namespace std;
     cout << "Make: ";
     cin >> make;
   
+    Car c(year, make);  
+    int i;
   
+    for(i=0; i<5; i++)
+    {
+        cout << "Acceleration:  " << i << " " << endl;
+        c.accelerate();
+        cout << "Car Speed:  " << c.getSpeed() << endl;
+        cout << " " << endl;                      
+    }
+                           
+    for(i=0; i<5; i++)
+    {
+        cout << "Brake:  " << i << " " << endl; 
+        c.brake();
+        cout << "Car Speed:  " << c.getSpeed() << endl; 
+        cout <, " " << endl; 
+    }
+                           
   }
   

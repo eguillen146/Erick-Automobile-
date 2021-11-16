@@ -39,5 +39,14 @@ using namespace std;
   
   int main()
   {
+    int year;
+    string make;
+    
+    cout << "Year: ";
+    cin >> year;
+    cout << "Make: ";
+    cin >> make;
+  
+  
   }
   
